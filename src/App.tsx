@@ -97,15 +97,6 @@ const talks: Record<string, Talk[]> = {
   "16": [
     {
       id: "7",
-      title: "Vibe Coding, Engenharia de Contexto, Agentes e o que mais? Dando sentido as Hypes da IA Generativa",
-      participants: ["Filipe Calegario (CIn-UFPE)"],
-      time: "10:00 - 11:00",
-      location: "Cesar School - Sala 102",
-      locationUrl: "https://maps.app.goo.gl/dGgrrbU8YYKPDXtc6",
-      categories: ["IA Generativa"],
-    },
-    {
-      id: "8",
       title: "Inovação aberta na prática: startups em ação no HC-UFPE",
       participants: ["José William Nascimento - doutorando em IA pelo CIn-UFPE e Co-founder & Head de Projetos (Startup Aicury), Conceição Moraes - SEBRAE/PE, Francisco Amorim de Barros - HC-UFPE, Danilo Novelino - Startup Cinco Saúde, Andreza Gomes - HC-UFPE"],
       time: "10:00 - 11:15",
@@ -114,13 +105,13 @@ const talks: Record<string, Talk[]> = {
       categories: ["Startups"],
     },
     {
-      id: "9",
-      title: "Uma Receita de IA: Integrando Data Warehouse e Data Lake em Lakehouse",
-      participants: ["Liga Acadêmica de Engenharia de Dados: Lucas Lucena, Erick Lima, Allyson Silva, Igor Varela, Luis Paulo Trevisan"],
-      time: "10:10 - 10:55",
-      location: "Cesar School - Sala 205",
+      id: "8",
+      title: "Vibe Coding, Engenharia de Contexto, Agentes e o que mais? Dando sentido as Hypes da IA Generativa",
+      participants: ["Filipe Calegario (CIn-UFPE)"],
+      time: "11:30 - 12:30",
+      location: "Cesar School - Sala 102",
       locationUrl: "https://maps.app.goo.gl/dGgrrbU8YYKPDXtc6",
-      categories: ["Dados"],
+      categories: ["IA Generativa"],
     },
     {
       id: "10",
@@ -178,6 +169,15 @@ const talks: Record<string, Talk[]> = {
     },
   ],
   "17": [
+    {
+      id: "9",
+      title: "Uma Receita de IA: Integrando Data Warehouse e Data Lake em Lakehouse",
+      participants: ["Liga Acadêmica de Engenharia de Dados: Lucas Lucena, Erick Lima, Allyson Silva, Igor Varela, Luis Paulo Trevisan"],
+      time: "10:10 - 10:55",
+      location: "Cesar School - Sala 205",
+      locationUrl: "https://maps.app.goo.gl/dGgrrbU8YYKPDXtc6",
+      categories: ["Dados"],
+    },
     {
       id: "16",
       title: "Veículos Autônomos na América Latina: De Sci-Fi à Realidade?",
