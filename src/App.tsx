@@ -84,6 +84,15 @@ const talks: Record<string, Talk[]> = {
       locationUrl: "https://maps.app.goo.gl/RN58EJyAGucNRbHF6",
       categories: ["Academia"],
     },
+    {
+      id: "23",
+      title: "Inteligência Artificial: sua próxima graduação? Por quê?",
+      participants: ["Paulo Salgado"],
+      time: "18:00 - 19:00",
+      location: "Moinho Recife - Neurotech",
+      locationUrl: "https://maps.app.goo.gl/wFGxTJ6ZGf5nPKuK8",
+      categories: ["Academia"],
+    },
   ],
   "16": [
     {
@@ -358,25 +367,25 @@ export default function App() {
             <TabsTrigger value="15" className="min-h-[80px]">
               <div className="flex flex-col items-center gap-1.5">
                 <span className="text-lg">Dia 15</span>
-                <span className="text-xs md:text-sm opacity-60">Quarta-feira</span>
+                <span className="text-[10px] sm:text-sm opacity-60">Quarta-feira</span>
               </div>
             </TabsTrigger>
             <TabsTrigger value="16" className="min-h-[80px]">
               <div className="flex flex-col items-center gap-1.5">
                 <span className="text-lg">Dia 16</span>
-                <span className="text-xs md:text-sm opacity-60">Quinta-feira</span>
+                <span className="text-[10px] sm:text-sm opacity-60">Quinta-feira</span>
               </div>
             </TabsTrigger>
             <TabsTrigger value="17" className="min-h-[80px]">
               <div className="flex flex-col items-center gap-1.5">
                 <span className="text-lg">Dia 17</span>
-                <span className="text-xs md:text-sm opacity-60">Sexta-feira</span>
+                <span className="text-[10px] sm:text-sm opacity-60">Sexta-feira</span>
               </div>
             </TabsTrigger>
             <TabsTrigger value="18" className="min-h-[80px]">
               <div className="flex flex-col items-center gap-1.5">
                 <span className="text-lg">Dia 18</span>
-                <span className="text-xs md:text-sm opacity-60">Sábado</span>
+                <span className="text-[10px] sm:text-sm opacity-60">Sábado</span>
               </div>
             </TabsTrigger>
           </TabsList>
