@@ -2,7 +2,7 @@ import { Heart } from "lucide-react";
 
 export function Footer() {
   const lastUpdate = "14 de outubro de 2025";
-  const lastHour = "11:18"
+  const lastHour = "22:09"
   
   return (
     <footer className="mt-10 pb-6 text-center space-y-4 relative z-10">
