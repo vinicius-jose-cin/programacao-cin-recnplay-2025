@@ -36,7 +36,7 @@ const talks: Record<string, Talk[]> = {
       participants: ["Paulo Borba"],
       time: "13:30 - 14:15",
       location: "Accenture Innovation Center",
-      locationUrl: "https://maps.app.goo.gl/jRirTFCCrP1W2LHd7",
+      locationUrl: "https://maps.app.goo.gl/1UxXLY2mhZNpPFf1A",
       categories: ["IA"],
     },
     {
@@ -233,6 +233,17 @@ const talks: Record<string, Talk[]> = {
       categories: ["Engenharia de Software"],
     },
   ],
+  "18": [
+    {
+    id: "24",
+    title: "Inteligência Artificial na educação: estudantes que transformam",
+    participants: ["Ana Júlia Soares (Colégio Apoio), Carlos Eduardo Toledo de Brito (Psicologia/UFPE), Davi da Costa Silvestre (Psicologia/UFPE), Yasmin Wanderley Soares (CIn-UFPE), Carlos Henrique Silva (ETE Porto Digital), Giselle Santos (Instituto Escolas Criativas)"],
+    time: "10:00 - 11:00",
+    location: "Livraria Jaqueira - Galeria",
+    locationUrl: "https://maps.app.goo.gl/atikYjJEJRixyT4n7",
+    categories: ["IA", "Educação"]
+  },
+  ],
 };
 
 const arenas: Record<string, Talk[]> = {
@@ -260,7 +271,7 @@ const arenas: Record<string, Talk[]> = {
       title: "Cooperação",
       participants: ["Coordenação de Cooperação e Inovação CIn-UFPE"],
       time: "10:00 - 19:00",
-      location: "Arena de Negócios",
+      location: "Arena de Negócios, Sala Ponte Tech",
       locationUrl: "https://maps.app.goo.gl/ZCHoJz1ZbyRdQJgc6",
       categories: ["Negócios"],
     },
@@ -289,7 +300,7 @@ const arenas: Record<string, Talk[]> = {
       title: "Cooperação",
       participants: ["Coordenação de Cooperação e Inovação CIn-UFPE"],
       time: "10:00 - 19:00",
-      location: "Arena de Negócios",
+      location: "Arena de Negócios, Sala Ponte Tech",
       locationUrl: "https://maps.app.goo.gl/ZCHoJz1ZbyRdQJgc6",
       categories: ["Negócios"],
     },
