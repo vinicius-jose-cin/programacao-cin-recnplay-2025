@@ -373,7 +373,7 @@ export default function App() {
           </div>
         </header>
 
-        <Tabs defaultValue="15" className="w-full">
+        <Tabs defaultValue={String(new Date().getDate())} className="w-full">
           <TabsList className="grid w-full grid-cols-4 mb-8 bg-card/50 backdrop-blur-md border-2 border-primary/20 p-3 gap-3 isolate">
             <TabsTrigger value="15" className="min-h-[80px]">
               <div className="flex flex-col items-center gap-1.5">
